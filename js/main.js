@@ -13,16 +13,16 @@ function loadSite () {
           // console.log(json);
           switch(json.weather[0].main){
             case "Rain":
-              document.body.style.backgroundImage = "url('https://www.sciline.org/wp-content/uploads/2021/02/cropped-Torrential-Rain-Flooding-and-Climate-Change.jpg')";
+              document.body.style.backgroundImage = "url('../images/rainy.jpg')";
               break;
             case "Clouds":
-              document.body.style.backgroundImage = "url('https://images.freeimages.com/images/large-previews/d05/cloudy-sky-1200230.jpg')";
+              document.body.style.backgroundImage = "url('../images/cloudy.jpg')";
               break;
             case "Clear":
-              document.body.style.backgroundImage = "url('https://media.istockphoto.com/id/162428248/photo/cloudscape.jpg?s=612x612&w=0&k=20&c=9yNkLzvPtJouuJw7XRuvKQ0rD9Dh_UksrKKlvtEpKMg=')";
+              document.body.style.backgroundImage = "url('../images/clear.jpg')";
               break;
             default:
-              document.body.style.backgroundImage = "url('https://static6.depositphotos.com/1011549/559/i/450/depositphotos_5590404-stock-photo-clouds.jpg')";
+              document.body.style.backgroundImage = "url('../images/fair.jpg')";
               break;
           }
       
