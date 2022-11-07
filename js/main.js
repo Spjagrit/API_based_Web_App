@@ -13,16 +13,16 @@ function loadSite () {
           console.log(json);
           switch(json.weather[0].main){
             case "Rain":
-              document.body.style.backgroundImage = "url('./img/rainy.jpg')";
+              document.body.style.backgroundImage = "url('../img/rainy.jpg')";
               break;
             case "Clouds":
-              document.body.style.backgroundImage = "url('./img/cloudy.jpg')";
+              document.body.style.backgroundImage = "url('../img/cloudy.jpg')";
               break;
             case "Clear":
-              document.body.style.backgroundImage = "url('./img/clear.jpg')";
+              document.body.style.backgroundImage = "url('../img/clear.jpg')";
               break;
             default:
-              document.body.style.backgroundImage = "url('./img/fair.jpg')";
+              document.body.style.backgroundImage = "url('../img/fair.jpg')";
               break;
           }
       
