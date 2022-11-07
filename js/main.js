@@ -3,9 +3,10 @@ let latitude = "103.846733";
 
 function loadSite () {
     function getWeather () {
-        let url = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=98283aa823eadd9bbf28dc92980d45f5`
+        let url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=98283aa823eadd9bbf28dc92980d45f5`
         console.log(url);
-        fetch(url).then(function(response) {
+        fetch(url).
+        then(function(response) {
           return response.json();
         })
         .then(function(json) {
