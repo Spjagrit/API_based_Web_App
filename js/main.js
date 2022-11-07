@@ -13,16 +13,16 @@ function loadSite () {
           // console.log(json);
           switch(json.weather[0].main){
             case "Rain":
-              document.body.style.backgroundImage = "url('../images/rainy.jpg')";
+              document.body.style.backgroundImage = "url('https://media.giphy.com/media/t7Qb8655Z1VfBGr5XB/giphy.gif')";
               break;
             case "Clouds":
-              document.body.style.backgroundImage = "url('../images/cloudy.jpg')";
+              document.body.style.backgroundImage = "url('https://media.giphy.com/media/3o6wrm1JXSq5C9EtnG/giphy.gif')";
               break;
             case "Clear":
-              document.body.style.backgroundImage = "url('../images/clear.jpg')";
+              document.body.style.backgroundImage = "url('https://media.giphy.com/media/u01ioCe6G8URG/giphy.gif')";
               break;
             default:
-              document.body.style.backgroundImage = "url('../images/fair.jpg')";
+              document.body.style.backgroundImage = "url('https://media.giphy.com/media/fe3zisUnJjbqM/giphy.gif')";
               break;
           }
       
